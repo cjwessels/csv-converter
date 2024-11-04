@@ -48,7 +48,7 @@ export const generateCSV = (data: RowData[]): string => {
     'Part 2 a Item': '',
     'Permit No': '',
     'Pay Vat': '',
-    'Duty Rate': '',
+    // 'Duty Rate': '',
     'High Risk Uplift Rate': '',
     'Customs Value': '',
     'Costing Factor': '',
