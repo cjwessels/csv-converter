@@ -32,7 +32,7 @@ export const processExcelFile = (
 export const generateCSV = (data: RowData[]): string => {
   console.log(data);
   const csvData = data.map((row, index) => ({
-    'Line No': (index + 1).toString(),
+    // 'Line No': (index + 1).toString(),
     'D/Type': row.DTYPE || 'DP',
     TariffCode: row['HS Code'],
     'C/O': row.COO,
